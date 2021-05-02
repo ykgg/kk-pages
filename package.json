@@ -1,0 +1,35 @@
+{
+  "name": "kk-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "kk-pages",
+    "zce"
+  ],
+  "repository": "zce/kk-pages",
+  "license": "MIT",
+  "author": "kaysen <liangyongkangg@163.com> (https://github.com/fengege)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
