@@ -9,7 +9,6 @@ process.argv.push(process.cwd()) // 当前命令行执行的目录
 process.argv.push('--gulpfile')
 process.argv.push(require.resolve('..')) // lin/index.js
 
-
 require('gulp/bin/gulp')
 // 我们查node_modules中发现gulp/bin/gulp目录，其实是执行了这个函数 require('gulp-cli')();
 // 而gulp-cli中又是通过process.argv来拿到对应的参数的  （argv是一个数组）
